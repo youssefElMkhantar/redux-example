@@ -9,7 +9,6 @@ import { authActions } from './store/index.js';
 function App() {
 
   const isAuthenticated = useSelector(state => state.auth.isAuthenticated);
-
   return (
     <>
       <Header />
